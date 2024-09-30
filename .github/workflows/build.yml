@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - "ksu"
-    paths:
-      - ".github/workflows/**"
 
 jobs:
   build_kernel:
